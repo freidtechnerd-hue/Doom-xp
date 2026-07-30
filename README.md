@@ -34,34 +34,31 @@ older computers and operating systems while using classic development tools.
 - ✅ Windows XP compatible
 - ✅ Compiled with Open Watcom
 - ✅ Lightweight executable
-- ✅ Based on the original DOOM source code
-- ✅ Designed for older hardware
+- ✅ Built-in launcher GUI
+- ✅ Working wall textures
+- ✅ Sound effects support
+- ✅ Embedded icon
+- ✅ Fullscreen mode
 
 ---
 
-## Current Issues
+## How To Run
 
-This project is currently experimental.
+1. Download the latest release.
+2. Extract the `.zip` file.
+3. Run `doom-xp.exe`.
+4. In the launcher, click **Browse...** and select your WAD file.
+5. Configure settings (fullscreen, sound, etc.).
+6. Click **LAUNCH**.
 
-Known problems:
-
-- ❌ Wall textures are currently broken
-- ❌ No audio support yet
-- ⚠ More bugs may exist
+Supported WAD files: `DOOM.WAD`, `DOOM2.WAD`, `DOOM2F.WAD`, `DOOMU.WAD`,
+`DOOM1.WAD`, `TNT.WAD`, `PLUTONIA.WAD`.
 
 ---
 
-## Building
+## Known Issues
 
-DOOM XP was created by taking the original open-source DOOM source code and
-compiling it with the **Open Watcom compiler**.
-
-Build process:
-
-1. Get the original DOOM source code.
-2. Apply DOOM XP changes.
-3. Compile using Open Watcom.
-4. Run the generated executable.
+- ❌ MIDI music does not play (sound effects work but music is silent)
 
 ---
 
@@ -73,3 +70,43 @@ Build process:
 ---
 
 ## Files
+
+```
+doom-xp.exe   - Game executable
+doom.sf2      - SoundFont (for future MIDI support)
+README.txt    - Full documentation
+```
+
+---
+
+## v1.1 Changelog
+
+- Built-in launcher with WAD browser, fullscreen/sound/console toggles
+- Wall texture rendering fixed (struct alignment bug)
+- Sound effects enabled
+- Fullscreen mode creates a proper WS_POPUP window
+- Embedded icon (no separate patching needed)
+- Logo loaded from doomxp.png
+
+---
+
+## v1.0 Changelog
+
+- Initial Windows XP port of Linux Doom 1.10
+- Command-line WAD selection
+- 32-bit DIB section rendering
+
+---
+
+## Credits
+
+- **id Software** — Original DOOM engine
+- **Open Watcom Project** — Compiler
+- DOOM XP contributors
+
+---
+
+<p align="center">
+  <i>Unofficial fan project. Not affiliated with id Software.</i><br>
+  <i>Built for Windows XP • Compiled with Open Watcom</i>
+</p>
