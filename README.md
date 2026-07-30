@@ -10,6 +10,14 @@
 
 ---
 
+## Screenshot
+
+<p align="center">
+  <img src="screenshot.png" alt="DOOM XP Screenshot" width="640">
+</p>
+
+---
+
 ## About
 
 DOOM XP is an experimental Windows XP-compatible port of the original
