@@ -73,7 +73,6 @@ Supported WAD files: `DOOM.WAD`, `DOOM2.WAD`, `DOOM2F.WAD`, `DOOMU.WAD`,
 
 ```
 doom-xp.exe   - Game executable
-doom.sf2      - SoundFont (for future MIDI support)
 README.txt    - Full documentation
 ```
 
